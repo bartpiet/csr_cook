@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSR Cook</title>
+    <link rel="stylesheet" href="/styles.css">
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+    <h1>👨‍🍳 a simple CSR generator</h1>
+    <form action="/" method="post">
+      <p>
+      <label>
+        Common Name
+      </label>
+      <input name="cn" required>
+      </p>
+      <p>
+      <label>
+        Email
+      </label>
+      <input name="email" type="email" required>
+      </p>
+      <p>
+      <input type="submit" value="download CSR and private key in one file">
+      </p>
+      <br>
+      <br>
+      <p>In your file, CSR is everything between and including lines
+      <br>
+      <output>-----BEGIN CERTIFICATE REQUEST-----</output> 
+      <br>
+      <output>...</output> 
+      <br>
+      <output>-----END CERTIFICATE REQUEST-----</output></p>
+      <p>Rest of the file contains private key - put on your server, keep it private and don't loose it ;) Cheers!</p>
+
+      
+      <form>
+  </body>
+</html>
