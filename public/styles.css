@@ -2,12 +2,20 @@ html {
   font-family: sans-serif;
 }
 
+body{
+  max-width: 900px;
+  margin: auto;
+  background: #fff;
+}
+
 label {
   display: inline-block;
-  width: 150px;
+  width: 300px;
 }
 input {
   display: inline-block;
+  vertical-align: middle;
+  padding: 5px;
 }
 
 output {
